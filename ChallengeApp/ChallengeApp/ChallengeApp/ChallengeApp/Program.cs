@@ -1,5 +1,4 @@
-﻿
-// Dzień Czwarty
+﻿// Dzień Czwarty
 string name = "Ewa";
 var isWomen = "true";
 int age = 33;
