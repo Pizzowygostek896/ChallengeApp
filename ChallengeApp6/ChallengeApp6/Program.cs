@@ -60,5 +60,5 @@ if (counter > 1)
 else
 
     Console.WriteLine($" The higest scored employee is {maxScoredEmployee.Name} {maxScoredEmployee.Surname} Age: {maxScoredEmployee.Age} with score: {maxScoredEmployee.Result}");
-    Console.WriteLine($" The higest scored employee is {maxScoredEmployee.Name} {maxScoredEmployee.Surname} Age: {maxScoredEmployee.Age} with score: {maxScoredEmployee.Result}");
+
 
