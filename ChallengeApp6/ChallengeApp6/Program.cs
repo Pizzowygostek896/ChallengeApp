@@ -1,6 +1,4 @@
 ﻿using ChallengeApp6;
-
-
 Employee employee1 = new Employee("Robert", "Pedro", 44);
 Employee employee2 = new Employee("Martyna", "Wiermoń", 34);
 Employee employee3 = new Employee("Kamil", "Dobrzerski", 35);
@@ -60,4 +58,7 @@ if (counter > 1)
 
 }
 else
+
     Console.WriteLine($" The higest scored employee is {maxScoredEmployee.Name} {maxScoredEmployee.Surname} Age: {maxScoredEmployee.Age} with score: {maxScoredEmployee.Result}");
+    Console.WriteLine($" The higest scored employee is {maxScoredEmployee.Name} {maxScoredEmployee.Surname} Age: {maxScoredEmployee.Age} with score: {maxScoredEmployee.Result}");
+
