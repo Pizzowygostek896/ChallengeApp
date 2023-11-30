@@ -46,3 +46,13 @@ namespace ChallengeApp8.Tests
         
     }
 }
+
+namespace ChallengeApp8.Tests
+{
+    class User
+    {
+        public User(string name)
+        {
+        }
+    }
+}
