@@ -8,7 +8,7 @@
 
 
         public float Average { get; set; }
-        public object? MaxValue { get; set; }
-        public object? MinValue { get; set; }
+        public float? MaxValue { get; set; }
+        public float? MinValue { get; set; }
     }
 }
