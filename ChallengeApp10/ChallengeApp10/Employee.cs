@@ -3,8 +3,6 @@
     public class Employee
     {
         private List<float> grades = new List<float>();
-
-
         public Employee(string name, string surname)
         {
             this.Name = name;
@@ -12,8 +10,6 @@
         }
         public string Name { get; private set; }
         public string Surname { get; private set; }
-
-
         public void AddGrade(float grade)
         {
 
@@ -30,8 +26,6 @@
                 Console.WriteLine("Wrong grade value");
             }
         }
-
-
         public void AddGrade(string grade)
         {
 
@@ -45,18 +39,16 @@
                 Console.WriteLine("String is not float");
             }
         }
-            public void AddGrade(double grade)
+        public void AddGrade(double grade)
             {
                 float gradeToFloat = (float)grade;
                 this.AddGrade(gradeToFloat);
             }
-
-            public void AddGrade(long grade)
+        public void AddGrade(long grade)
             {
                 float gradeToLong = (long)grade;
                 this.AddGrade(gradeToLong);
             }
-
         public void AddGrade(int grade)
         {
             float gradeToInt = (int)grade;
